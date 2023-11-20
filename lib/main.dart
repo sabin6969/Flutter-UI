@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/pages/ecommerce_app/ecommerce_home_page.dart';
-import 'package:flutter_ui/pages/login_one.dart';
-import 'package:flutter_ui/pages/login_three.dart';
+// import 'package:flutter_ui/pages/ecommerce_app/ecommerce_home_page.dart';
+// import 'package:flutter_ui/pages/login_one.dart';
+// import 'package:flutter_ui/pages/login_three.dart';
+import 'package:flutter_ui/pages/stack_profile_design.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: const EcommerceHomePage(),
+      home: const MyStackProfile(),
       title: "Flutter UIs",
     );
   }
